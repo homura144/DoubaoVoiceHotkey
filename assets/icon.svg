@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="DoubaoVoiceHotkey icon">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6ee7ff"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect x="12" y="12" width="232" height="232" rx="58" fill="#111827"/>
+  <path d="M55 144c17-39 32-58 45-58 16 0 20 63 37 63 15 0 24-43 39-43 10 0 18 14 25 38" fill="none" stroke="url(#g)" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M53 176h150" fill="none" stroke="#e5e7eb" stroke-width="12" stroke-linecap="round" opacity=".92"/>
+  <circle cx="53" cy="176" r="8" fill="#6ee7ff"/>
+  <circle cx="203" cy="176" r="8" fill="#8b5cf6"/>
+</svg>

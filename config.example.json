@@ -1,0 +1,12 @@
+{
+  "ToggleKey": "F8",
+  "HoldKey": "None",
+  "CancelKey": "Escape",
+  "SwitchToDoubaoBeforeVoice": true,
+  "AfterImeSwitchDelayMs": 350,
+  "ShowWaveDelayMs": 100,
+  "StopGraceMs": 200,
+  "PostStopSettleMs": 400,
+  "RpcWaitMs": 3000,
+  "ShowErrorNotifications": true
+}
