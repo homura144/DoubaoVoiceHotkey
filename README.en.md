@@ -39,7 +39,8 @@ flowchart LR
     B --> C{Voice state}
     C -->|Idle -> Start| D[Switch TSF profile to Doubao]
     D --> E[Doubao local RPC]
-    C -->|Listening -> Stop| E
+    C -->|Listening -> Finalizing| H[Preserve tail / wait for final result]
+    H --> E
     C -->|Esc -> Cancel| E
     E --> F[Doubao ImeService]
     F --> G[Current text input]
@@ -51,7 +52,7 @@ flowchart LR
 2. Run `DoubaoVoiceHotkey.exe`.
 3. Put the caret in any text field.
 4. Press `F8` to start voice input.
-5. Press `F8` again to stop and commit.
+5. Press `F8` again to enter `Finalizing`: by default the app preserves about 200 ms of tail audio before Stop, then keeps a short settle window before returning to Idle.
 
 The app lives in the system tray. Double-clicking its tray icon opens the settings file.
 
